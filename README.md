@@ -24,7 +24,7 @@ sudo apt install wget -y
 ## Installation
 To configure and install BSC Node please run:
 ```
-sudo wget https://raw.githubusercontent.com/AntonMashnin/install_bsc_node/main/bscinstall.sh
-sudo chmod +x bscinstall.sh
-sudo ./bscinstall.sh
+sudo wget https://raw.githubusercontent.com/AntonMashnin/orakuru_node/main/orakuru_node.sh
+sudo chmod +x orakuru_node.sh
+sudo ./orakuru_node.sh
 ```
