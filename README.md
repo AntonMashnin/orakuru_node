@@ -20,6 +20,7 @@ sudo apt install wget -y
     - web3.yml
   - go/bin cointains binary file:
     - crystal-ball
+# You need to put your private key during the installation process!!!
 
 ## Installation
 To configure and install BSC Node please run:
