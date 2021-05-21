@@ -38,7 +38,7 @@ sed -i -e 's/https:\/\/bsc-dataseed.binance.org\//ws:\/\/localhost:8576/g' /home
 echo -e "\e[34m --------------------------------------\e[0m"
 echo -e "\e[32m Build Binary File!\e[0m"
 chown -R orakuru:orakuru /home/orakuru
-su orakuru -c "cd /home/orakuru; git clone https://github.com/orakurudata/crystal-ball;cd crystal-ball;git checkout v0.2.1;go get ./...;go install ./cmd/crystal-ball"
+su orakuru -c "cd /home/orakuru; git clone https://github.com/orakurudata/crystal-ball > /dev/null 2>&1;cd crystal-ball;git checkout v0.2.1 > /dev/null 2>&1;go get ./... > /dev/null 2>&1;go install ./cmd/crystal-ball > /dev/null 2>&1"
 ln -s /home/orakuru/go/bin/crystal-ball /usr/local/bin/
 chown -h orakuru:orakuru /usr/local/bin/crystal-ball
 
