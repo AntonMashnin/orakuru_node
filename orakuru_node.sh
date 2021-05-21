@@ -76,4 +76,8 @@ echo -e "\e[34m --------------------------------------\e[0m"
 echo -e "\e[31m Please save orakuru user password!!!\e[0m"
 echo -e "\e[32m" $userpass "\e[0m"
 
+echo -e "\e[34m --------------------------------------\e[0m"
+echo -e "\e[31m To check the service status, please run\e[0m"
+echo -e "\e[32m systemctl status orakuru.service \e[0m"
+
 fi
