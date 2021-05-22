@@ -24,7 +24,7 @@ sudo apt install wget -y
 ## !!!You need to put your private key during the installation process!!!
 
 ## Installation
-To configure and install BSC Node please run:
+To configure and install Orakuru Node please run:
 ```
 sudo wget https://raw.githubusercontent.com/AntonMashnin/orakuru_node/main/orakuru_node.sh
 sudo chmod +x orakuru_node.sh
