@@ -14,7 +14,7 @@ echo -e "\e[34m --------------------------------------\e[0m"
 echo -e "\e[32m The installation of the software is in progress!\e[0m"
 apt update -y > /dev/null 2>&1
 apt upgrade -y > /dev/null 2>&1
-apt install git gcc g++ -y > /dev/null 2>&1
+apt install git gcc g++ pwgen -y > /dev/null 2>&1
 
 userpass=$(pwgen 10 1)
 useradd -m -p $userpass orakuru
