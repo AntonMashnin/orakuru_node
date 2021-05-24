@@ -47,7 +47,7 @@ echo -e "\e[34m --------------------------------------\e[0m"
 echo -e "\e[32m Please input your private key: \e[0m"
 read key
 sed -i -e s/key-here/$key/g /home/orakuru/etc/web3.yml
-
+sed -i -e 's/core-address-here/0x16a5Be448aFB23a80b1020A82739a527E0e99e54/g' /home/orakuru/etc/web3.yml
 
 
 printf "[Unit]
